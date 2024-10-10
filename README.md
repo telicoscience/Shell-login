@@ -17,5 +17,21 @@ Este é um script simples de tentativa de login escrito em Bash. Ele simula um p
 
 Execute o script usando o comando:
 
-```bash
+```
 ./login_script.sh
+```
+
+## Exemplo de saída
+```
+Tentativa 1/5
+Login: USER
+Senha: 123
+Continuando o programa...
+```
+Se o usuário falhar 5 vezes, a seguinte mensagem será exibida:
+```
+bash
+Número de tentativas excedido. Parando o programa
+Customização
+Você pode alterar o nome de usuário e senha padrão modificando as variáveis user e pass no script.
+```
